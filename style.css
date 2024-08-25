@@ -1,0 +1,207 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #222222;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
+}
+
+.nav {
+    width: 100%;
+    color: #aaaaaa;
+    background-color: #00050d;
+    height: 55px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav>img {
+    width: 100px;
+    margin-right: 40px;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+.nav ul li svg {
+    margin-left: 35px;
+    margin-right: 10px;
+}
+
+.nav ul li a {
+    color: #aaaaaa;
+    text-decoration: none;
+}
+
+li>img {
+    width: 3vw;
+}
+
+.first-section {
+    color: white;
+    height: 68vh;
+    width: 100vw;
+    background-image: url('./asset/img/MLP.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.first-section>.sectCont {
+    display: flex;
+    width: 40vw;
+    height: 100%;
+    padding: 40px;
+    position: relative;
+    flex-direction: column;
+    color: white;
+    /* border: 2px solid red; */
+    background-color: #050505a5;
+    gap: 15px;
+}
+
+.sectCont> :nth-child(1) {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.sectCont> :nth-child(2) {
+    font-size: 20px;
+}
+
+.sectImg {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.btn {
+    cursor: pointer;
+    padding: 15px 0px;
+    width: 18vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    background-color: #0f79af;
+    border: none;
+    border-radius: 5px;
+}
+
+.scnd-sect {
+    background-image: url('./asset/img/TVOD_MLP_Right.jpg');
+}
+
+.thrd-sect {
+    background-color: #fff;
+    color: black;
+    height: auto;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.thrd-sect>.sectCont {
+    display: flex;
+    float: left;
+    width: 40vw;
+    height: 100%;
+    padding: 20px 70px;
+    position: absolute;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.thrd-sect>.sectCont> :nth-child(1) {
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.thrd-sect>.sectCont> :nth-child(2) {
+    font-size: 24px;
+}
+
+.sectImgs {
+    padding-top: 10px;
+    float: right;
+    width: 50vw;
+    gap: 20px;
+}
+
+.sectImgs img {
+    cursor: pointer;
+    width: 220px;
+}
+
+.sectImgs img:hover {
+    transition: all 0.3s ease;
+    border: 1px solid black;
+    background-color: grey;
+    box-shadow: 0px 0px 5px 5px #888888;
+}
+
+.frth-section {
+    color: white;
+    height: 68vh;
+    width: 100vw;
+    background-image: url('./asset/img/MLP_Template_Image_Left.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.frth-section>.sectCont {
+    padding: 25px 10px;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50vw;
+}
+
+.footer {
+    color: gray;
+    position: relative;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer span {
+    display: block;
+}
+
+.footer span ul{
+    list-style: none;
+}
+
+.footer span ul li{
+    display: inline;
+    padding-right: 15px;
+    cursor: pointer;
+}
+
+.footer :nth-child(2){
+    color: #1479af;
+}
